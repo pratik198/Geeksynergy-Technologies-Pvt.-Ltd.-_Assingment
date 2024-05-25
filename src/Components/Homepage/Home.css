@@ -1,0 +1,48 @@
+.overall_card {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  /* border: 1px solid; */
+  max-width: 397px;
+
+  margin-top: 20px;
+  box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+}
+.card_component {
+  display: flex;
+
+  gap: 15px;
+}
+.card_left_side {
+  display: flex;
+  gap: 8px;
+  max-width: 37%;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  padding: 7px;
+}
+.votes {
+  display: flex;
+
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card_image {
+  height: 94%;
+  width: 50%;
+
+  border-radius: 5px;
+}
+.card_image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card_right_side h3,
+p {
+  margin: 0;
+  font-size: 13px;
+}
